@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="UnitConversionAPI/UnitConversionAPI.csproj" />
+  <Project Path="UnitConversionAPPLICATION/UnitConversionAPPLICATION.csproj" />
+  <Project Path="UnitConversionDOMAIN/UnitConversionDOMAIN.csproj" />
+  <Project Path="UnitConversionINFRASTRUCTURE/UnitConversionINFRASTRUCTURE.csproj" />
+  <Project Path="UnitConversionUNITTESTCASE/UnitConversionUNITTESTCASE.csproj" />
+</Solution>
