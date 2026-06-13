@@ -43,14 +43,12 @@ The application is designed using Clean Architecture principles and follows SOLI
 ```text
 UnitConversionAPI
 │
-├── src
-│   ├── UnitConversion.API
-│   ├── UnitConversion.Application
-│   ├── UnitConversion.Domain
-│   └── UnitConversion.Infrastructure
+│── UnitConversionAPI
+│── UnitConversionAPPLICATION
+│── UnitConversionDOMAIN
+│── UnitConversionINFRASTRUCTURE
 │
-├── tests
-│   └── UnitConversion.Tests
+├── UnitConversionUNITTESTCASE
 │
 └── README.md
 ```
@@ -59,11 +57,11 @@ UnitConversionAPI
 
 | Project                       | Responsibility                         |
 | ----------------------------- | -------------------------------------- |
-| UnitConversion.API            | Controllers, Middleware, Configuration |
-| UnitConversion.Application    | DTOs, Interfaces, Contracts            |
-| UnitConversion.Domain         | Business Models, Enums, Common Classes |
-| UnitConversion.Infrastructure | Conversion Logic Implementations       |
-| UnitConversion.Tests          | Unit Tests                             |
+| UnitConversionAPI            | Controllers, Middleware, Configuration |
+| UnitConversionAPPLICATION    | DTOs, Interfaces, Contracts            |
+| UnitConversionDOMAIN         | Business Models, Enums, Common Classes |
+| UnitConversionINFRASTRUCTURE | Conversion Logic Implementations       |
+| UnitConversionUNITTESTCASE    | Unit Tests                             |
 
 ---
 
@@ -245,21 +243,6 @@ ASP.NET Core Dependency Injection is used to register services and strategies.
 
 Business logic is isolated from controllers, making the application easy to test.
 
----
-
-## Future Enhancements
-
-Possible future improvements:
-
-* Database-driven unit management
-* Redis caching
-* API Versioning
-* Authentication & Authorization
-* Audit Logging
-* Admin UI for managing units
-* Support for hundreds or thousands of units
-* Docker support
-* CI/CD pipeline integration
 
 ---
 
